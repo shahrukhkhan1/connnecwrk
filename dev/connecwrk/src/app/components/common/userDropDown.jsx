@@ -29,7 +29,7 @@ export default function SelectDropDown() {
     <div className="dropdownWrapper" ref={ref}>
       <div className="toggle hiden-xs" >
         <button class="usr_img" onClick={() => setIsOpen(!isOpen)}>
-          <img src="public/user-placeholder.jpg"/></button>
+          <img src="/user-placeholder.jpg"/></button>
       </div>
       {
         isOpen && 

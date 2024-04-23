@@ -16,8 +16,8 @@
   -webkit-transform: translate(-50%, -50%);
 }
 .toggle .usr_img {
-  width: 37px;
-  height: 37px;
+  width: 30px;
+  height: 30px;
   margin-top: 0;
   float: left;
   display: inline-block;
@@ -29,6 +29,7 @@
   background-position: center;
   background-size: 20px;
   background-repeat: no-repeat;
+  border: 0;
 }
 .toggle a i.fa {
   float: right;

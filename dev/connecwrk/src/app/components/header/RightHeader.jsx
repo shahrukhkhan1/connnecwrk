@@ -10,7 +10,7 @@ const RightHeader = () => {
   // const myStore = useMyStore();
   // const [login, setLogin] = useState(false);
 
-const [login, setLogin] = useState(false)
+const [login, setLogin] = useState(true)
 
 
   useEffect(() => {
