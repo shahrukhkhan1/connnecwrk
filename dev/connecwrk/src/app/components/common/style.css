@@ -1,0 +1,122 @@
+
+.toggle {
+  float: left;
+  /* margin-top: 10px; */
+  position: relative;
+  margin-left: 9px;
+  padding-right: 5px;
+}
+.toggle .usr_img img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  max-width: 30px;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+}
+.toggle .usr_img {
+  width: 37px;
+  height: 37px;
+  margin-top: 0;
+  float: left;
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  line-height: 40px;
+  border-radius: 50%;
+  background-image: url("/user-small.png");
+  background-position: center;
+  background-size: 20px;
+  background-repeat: no-repeat;
+}
+.toggle a i.fa {
+  float: right;
+  margin-top: 8px;
+  margin-left: 1px;
+}
+.toggle a {
+  text-decoration: none;
+  display: block;
+  border-radius: 3px;
+  color: #676464
+}
+ul.setting_menu {
+  position: absolute;
+  z-index: 99;
+  width: 170px;
+  right: 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, .15);
+  list-style: none; 
+  border-radius: 0 0 2px 2px;
+  background-color: #fff;
+  padding: 0;
+  margin: 0;
+  top: 56px;
+}
+.setting_menu li:hover {
+  background-color: #f3f6f8;
+}
+ul.setting_menu.fast {
+  display: block;
+}
+ul.setting_menu li a {
+  display: block;
+  font-weight: 600;
+  padding: 10px 40px;
+  margin: 0;
+  position: relative;
+  border-bottom: solid 1px #cdcdcd;
+  text-decoration: none;
+  padding-left: 40px;
+  border-radius: 0;
+  color: rgba(0, 0, 0, .85);
+  font-size: 14px;
+  padding-right: 10px;
+}
+ul.setting_menu li:last-of-type a {
+  border-bottom: 0;
+}
+ul.setting_menu li a i.fa {
+  position: absolute;
+  width: 40px;
+  left: 0;
+  top: 0;
+  line-height: 39px;
+  text-align: center;
+  color: #777a7d;
+  margin: 0;
+  min-height: 36px;
+}
+a.help {
+  margin-top: 15px;
+  display: block;
+  margin-left: 20px;
+  float: left;
+}
+.premium_tag {
+  display: none;
+  margin: 15px 0;
+  float: left;
+  width: 100%;
+  position: relative;
+  margin-top: 0;
+  background-color: #e7e7e7;
+}
+.premium_tag p {
+  display: block;
+  float: left;
+  margin: 0;
+  word-break: break-all;
+  padding: 10px;
+  padding-left: 105px;
+}
+.premium_tag a {
+  display: block;
+  padding: 10px;
+  background-color: #00a0af;
+  color: #fff;
+  position: absolute;
+  text-decoration: none;
+  text-transform: uppercase;
+}

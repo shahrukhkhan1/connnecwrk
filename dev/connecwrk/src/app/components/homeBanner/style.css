@@ -1,0 +1,306 @@
+
+.banner {
+  width: 100%;
+  height: 500px;
+  float: left;
+  background-color: #fff;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: url('/konnectbannerhome1.jpg');
+  position: relative;
+  background-size: 100%;
+  /* padding: 20px 0; */
+}
+/* .banner .container {
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-index: 9;
+} */
+.banner-left-info {
+  width: 640px;
+  float: left;
+  flex: 1;
+  padding-top: 30px;
+  margin-left: 20px;
+}
+.rgstr-gender input {
+  display: none;
+}
+.banner-left-info h1 {
+  margin: 0;
+  font-size: 27px;
+  color: #fff;
+  font-weight: 500;
+  line-height: 29px;
+  text-align: left;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.36);
+  text-align: center;
+  line-height: 38px;
+  font-size: 25px;
+}
+.banner-left-info h3 {
+  margin: 0;
+  font-size: 16px;
+  color: #fff;
+  line-height: 20px;
+  margin-top: 10px;
+  font-weight: 500;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.36);
+  text-align: center;
+  margin-top: 20px;
+  font-size: 20px;
+}
+.banner-left-info p {
+  margin: 0;
+  font-size: 16px;
+  color: #fff;
+  line-height: 20px;
+  margin-top: 10px;
+  font-weight: 500;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.36);
+  text-align: center;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+
+.counterSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+.counterSection div {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  text-align: center;
+  margin: 0 20px;
+  min-width: 130px;
+}
+.counterSection div:nth-child(2) {
+  margin-left: 0;
+  margin-right: 0;
+}
+.counterSection div h2 {
+  font-size: 38px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #ef7f1a;
+  line-height: 1;
+  margin-bottom: 5px;
+}
+.counterSection div span {
+  font-size: 16px;
+  display: block;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.banner-form {
+  width: 400px;
+  float: right;
+  margin-top: 30px;
+}
+
+form.signup {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 2px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+form.signup h1 {
+  text-align: center;
+  margin: 0;
+  color: #fff;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+form.signup p {
+  color: #fff;
+  margin: 0;
+  font-size: 16px;
+  text-align: center;
+  margin: 10px 0;
+  margin-top: 0px;
+}
+form.signup .regstr-inputs {
+  width: 50%;
+  float: left;
+}
+
+.pd-right {
+  padding-right: 5px;
+}
+form.signup .regstr-inputs {
+  width: 50%;
+  float: left;
+}
+
+.pd-left {
+  padding-left: 5px;
+}
+.signup input[type="text"], .signup input[type="email"], .signup input[type="Password"], .signup textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 3px;
+  border: solid 1px #ccc;
+  margin-bottom: 7px;
+}
+.signup label {
+  display: block;
+    color: #585858;
+    margin-bottom: 2px;
+}
+.rgstr-birthday {
+  overflow: hidden;
+  text-align: center;
+}
+.rgstr-birthday select {
+  width: 31.33% !important;
+  display: inline-block;
+  margin-right: 7px;
+  padding: 10px;
+  border-radius: 3px;
+  border: solid 1px #ccc;
+  margin-bottom: 7px;
+  background-position: 90% 50%;
+}
+.rgstr-birthday select:last-of-type {
+  margin-right: 0;
+}
+.rgstr-gender {
+  width: 100%;
+  float: left;
+  margin-bottom: 8px;
+}
+.rgstr-gender label {
+  float: left;
+  margin-right: 10px;
+  padding-left: 25px;
+  cursor: pointer;
+  position: relative;
+}
+.rgstr-gender label:before {
+  content: '';
+  position: absolute;
+  left: 4px;
+  top: 3px;
+  width: 12px;
+  height: 12px;
+  border: 1px solid #ddd;
+  border-radius: 100%;
+  background: #fff;
+}
+
+.rgstr-gender label:after {
+  content: '';
+  width: 8px;
+  height: 8px;
+  background: #00a0af;
+  position: absolute;
+  top: 6px;
+  left: 7px;
+  border-radius: 100%;
+  opacity: 0;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+.rgstr-gender input[type="radio"]:checked + label:after {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+.signup .check {
+  margin-bottom: 10px;
+  font-size: 14px;
+  float: left;
+  width: 100%;
+  position: relative;
+  padding-left: 30px;
+}
+.signup .check input[type="checkbox"] {
+  width: auto !important;
+  display: none;
+}
+.signup button {
+  display: block;
+  border: 0;
+  background-color: #1db055;
+  color: #fff;
+  border-radius: 3px;
+  width: 100%;
+  font-weight: 600;
+  padding: 8px 10px;
+  font-size: 19px;
+  font-weight: normal;
+}
+.signup .loginwith {
+  margin-top: 10px;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: #00a0af;
+  cursor: pointer;
+}
+.signup .check label a {
+  display: inline-block;
+  text-decoration: underline;
+  /* color: #fff; */
+}
+.signup .check label {
+  position: relative;
+  padding-top: 3px;
+  font-size: 12.5px;
+  /* color: #fff; */
+}
+.signup .check label:before {
+  position: absolute;
+  content: '';
+  width: 12px;
+  height: 12px;
+  border: solid 1px #00a0af;
+  left: -19px;
+  top: 2px;
+}
+
+.banner:after {
+  position: absolute;
+  content: '';
+  /* right: 0;
+  top: 0;
+  background: #35a0af;
+  width: 40%;
+  height: 100%;
+  z-index: 0; */
+}
+.signup .check input[type="checkbox"]:checked + label:before {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  border-top: 0;
+  border-left: 0;
+  width: 3px;
+  left: -18px;
+  height: 8px;
+  top: 7px;
+}
+.signup .check input[type="checkbox"]:checked + label:after {
+  position: absolute;
+  content: '';
+  width: 12px;
+  height: 12px;
+  left: -23px;
+  top: 6px;
+  opacity: 1;
+  transition: all .12s, border-color .08s;
+  -webkit-transition: all .12s, border-color .08s;
+  -ms-transition: all .12s, border-color .08s;
+  border: solid 1px #00a0af;
+}

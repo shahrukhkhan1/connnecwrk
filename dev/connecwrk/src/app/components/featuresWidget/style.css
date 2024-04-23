@@ -1,0 +1,120 @@
+.featuresWraper {
+  width: 100%;
+  float: left;
+  background-image: url('/feature-bg.png');
+  background-color: #ecf0f2;
+  background-position: left bottom;
+  background-repeat: repeat-x;
+  -webkit-animation: slide 250s linear infinite;
+}
+@keyframes slide {
+  0% {
+    background-position: 0 bottom;
+}
+
+100% {
+    background-position: -1000% bottom;
+}
+  
+}
+.premium-cont {
+  float: left;
+  width: 100%;
+  padding-top: 60px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.premium-cont h2 {
+  font-size: 26px;
+  margin-bottom: 15px;
+  color: #454545;
+}
+.premium-cont h2 label {
+  color: #00a0af;
+}
+ul.konect-mmbr {
+  float: left;
+  width: 100%;
+  margin-bottom: 159px;
+}
+ul.konect-mmbr li {
+  width: 25%;
+  float: left;
+  padding: 5px 10px;
+  list-style: none;
+}
+ul.konect-mmbr li i.fa {
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  border-radius: 50%;
+  background-color: #f4f4f4;
+  color: #fff;
+  font-size: 35px;
+}
+.grup-box {
+  float: left;
+  width: 100%;
+  background-color: #fff;
+  height: 380px;
+  border-radius: 3px;
+}
+.grup-box .index-group {
+  height: 110px;
+  border-radius: 2px 2px 0 0;
+  position: relative;
+}
+.grup-box .index-group i.fa {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  bottom: 0;
+  z-index: 77;
+}
+.grup-box.indexarticle i.fa {
+  color: #35a0af;
+}
+.grup-box.grup i.fa {
+  color: #f56032;
+}
+.grup-box .index-white-box {
+  padding: 0 15px;
+}
+.grup-box .index-group:after {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 75px;
+  background-color: #ff6132;
+  left: 0;
+  border-radius: 2px 2px 0 0;
+  z-index: 1;
+}
+ul.konect-mmbr li label {
+  display: block;
+  font-size: 18px;
+  margin: 10px 0;
+  font-weight: 600;
+}
+.premium-cont p {
+  margin: 0;
+  font-size: 14px;
+  color: #828282; 
+}
+.grup-box.project .index-group:after {
+  background-color: #8adb38;
+}
+.grup-box.project .index-group i.fa {
+  color: #8adb38;
+}
+.grup-box.event .index-group:after {
+  background-color: #e7be0e;
+}
+.grup-box.indexarticle .index-group:after {
+  background-color: #00a0af;
+}
+.grup-box.event .index-group i.fa {
+  color: #e7be0e;
+}

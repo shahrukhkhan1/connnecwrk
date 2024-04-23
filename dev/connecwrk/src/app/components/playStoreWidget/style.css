@@ -1,0 +1,32 @@
+.play-store {
+  float: left;
+  width: 100%;
+  padding: 50px 0;
+  background: #fff;
+}
+.play-store .play-img {
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+.play-store .play-img img {
+  width: 80%;
+}
+.play-store .play-text {
+  padding: 135px 50px;
+  float: left;
+  width: 50%;
+  padding-left: 10px;
+}
+.play-text h1 {
+  color: #5a5a5a;
+  font-size: 30px;
+  font-weight: 500;
+  padding-right: 40px; 
+  margin: 20px 0;
+}
+.play-text p {
+  color: #858585;
+  font-size: 15px;
+  line-height: 20px;    margin: 1em 0;
+}
